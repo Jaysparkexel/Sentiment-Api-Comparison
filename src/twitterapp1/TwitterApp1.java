@@ -49,10 +49,10 @@ public class TwitterApp1 {
         // TODO code application logic here
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-        .setOAuthConsumerKey("maFcfwQDi8aojKzgofcUClmVI")
-        .setOAuthConsumerSecret("BHo4XaViO6hfy78UwUL9jTPTyW751nMFVhKY0OB9vm3MtNLYDS")
-        .setOAuthAccessToken("360556223-HHQS3JZYr0p4KgxfZYUtQyBy9NZ29wlpxog0zuSN")
-        .setOAuthAccessTokenSecret("DPpwFW1A9TgSGu65xnbLjuLvOPWRlGIMci6w15KufKo1q");
+        .setOAuthConsumerKey("")
+        .setOAuthConsumerSecret("")
+        .setOAuthAccessToken("")
+        .setOAuthAccessTokenSecret("");
         
         TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance(); 
         

@@ -25,7 +25,7 @@ public class AlchemyApiCheck {
    
    public AlchemyApiCheck(){
        service = new AlchemyLanguage();
-        service.setApiKey("0bf5ae56fbff706959e4c13f463042b0efd32134");
+        service.setApiKey("");
    }
     
     public static String checkPositivity(String sentence) throws ParseException{

@@ -19,7 +19,7 @@ import java.net.URL;
 public class AylienCheck {
     
     public String checkPositivity(String st) throws Exception{
-        TextAPIClient client = new TextAPIClient("5ba44115", "acb79485e9e49cd41fb39bf234a4f19b");
+        TextAPIClient client = new TextAPIClient("", "");
         SentimentParams sentimentParams = new SentimentParams(st,null,null);
         Sentiment sentiment = client.sentiment(sentimentParams);
         return sentiment.getPolarity();
@@ -27,7 +27,7 @@ public class AylienCheck {
     }
     
 //    public static void main(String[] args)  throws Exception {
-//        TextAPIClient client = new TextAPIClient("5ba44115", "acb79485e9e49cd41fb39bf234a4f19b");
+//        TextAPIClient client = new TextAPIClient("", "");
 //        String text = "John is a very good football player!";
 //        SentimentParams sentimentParams = new SentimentParams(text,null,null);
 //        Sentiment sentiment = client.sentiment(sentimentParams);

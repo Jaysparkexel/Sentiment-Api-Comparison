@@ -14,6 +14,6 @@ Downloaded 2000 Tweets from tag #railminindia using Java and Twitter API.
 
 ## What I Learned
 * How to use Twitter API with Java
-* <br /> JSON and Text Parsing
-* <br /> File Manupalation with Java.
-* <br /> Intial analysys step in the project life cycle.
+* JSON and Text Parsing
+* File Manupalation with Java.
+* Intial analysys step in the project life cycle.
